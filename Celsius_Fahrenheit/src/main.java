@@ -4,7 +4,7 @@ public class main {
 
 	private static Scanner sc1;
 
-	public main (String[] args) {
+	public static void main (String[] args) {
 
 		sc1 = new Scanner(System.in);
 
@@ -19,9 +19,9 @@ public class main {
 			System.out.println("1 - Convertisseur Celsius - Fahreinheit");
 			System.out.print("2 - Convertisseur Fahreinheit - Celsius");
 
-			int choix = sc1.nextInt();
+			int choice = sc1.nextInt();
 
-			switch(choix) {
+			switch(choice) {
 
 			case 1:
 				System.out.println("Température à convertir :");
