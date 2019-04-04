@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class main {
+
+	public static void main (String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("CONVERTISSEUR DEGRES CELSIUS ET DEGRES FAHRENHEIT");
+		System.out.println("-------------------------------------------------");
+
+		while (thomas == 1) {
+			System.out.println("Choisissez le mode de conversion :");
+			System.out.println("1 - Convertisseur Celsius - Fahreinheit");
+			System.out.print("2 - Convertisseur Fahreinheit - Celsius");
+
+			int choix = sc.nextInt();
+
+			switch(choix) {
+
+			case 1:
+				System.out.println("Température);
+						break;
+
+				case 2:
+
+					break;
+
+				default :
+					System.out.println("Recommence fils de pute");
+					break;
+			}
+
+		}
+	}
+}
