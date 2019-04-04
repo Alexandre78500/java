@@ -11,9 +11,9 @@ public class main {
 		System.out.println("CONVERTISSEUR DEGRES CELSIUS ET DEGRES FAHRENHEIT");
 		System.out.println("-------------------------------------------------");
 
-		String thomas = "O";
+		String restart = "O";
 
-		while (Objects.equals(thomas, "O") || Objects.equals(thomas, "o")) {
+		while (Objects.equals(restart, "O") || Objects.equals(restart, "o")) {
 
 			System.out.println("Choisissez le mode de conversion :");
 			System.out.println("1 - Convertisseur Celsius - Fahreinheit");
@@ -29,8 +29,8 @@ public class main {
 				float repCelsius = (celsius * 9/5) + 32;	
 				System.out.println(celsius + " °C correspond à : " + repCelsius + " °F.");
 				System.out.println("Souhaitez-vous convertir une autre température ?(O/N)");
-				thomas = sc1.next();
-				if (Objects.equals(thomas, "O") || Objects.equals(thomas, "o")) {
+				restart = sc1.next();
+				if (Objects.equals(restart, "O") || Objects.equals(restart, "o")) {
 					break;
 				} else {
 					System.out.println("Au revoir !");
@@ -43,8 +43,8 @@ public class main {
 				float repFahreinheit = ((fahreinheit - 32) * 5) / 9;
 				System.out.println(fahreinheit + " °F correspond à : " + repFahreinheit + " °C.");
 				System.out.println("Souhaitez-vous convertir une autre température ?(O/N)");
-				thomas = sc1.next();
-				if (Objects.equals(thomas, "O") || Objects.equals(thomas, "o")) {
+				restart = sc1.next();
+				if (Objects.equals(restart, "O") || Objects.equals(restart, "o")) {
 					break;
 				} else {
 					System.out.println("Au revoir !");
